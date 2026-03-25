@@ -1,0 +1,10 @@
+<div style="width: 72mm; font-family: monospace; font-size: 11px;">
+  <h4 style="text-align:center; margin:0;">{{ doc.company }}</h4>
+  <p style="text-align:center; margin:0;">POS Receipt</p>
+  <hr/>
+  {% for row in doc.items %}
+    <div>{{ row.item_name }} x {{ row.qty }} - {{ row.amount }}</div>
+  {% endfor %}
+  <hr/>
+  <b>Total: {{ doc.grand_total }}</b>
+</div>
