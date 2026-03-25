@@ -1,8 +1,8 @@
 app_name = "retail_ops"
 app_title = "Retail Ops"
-app_publisher = "Portfolio"
+app_publisher = "Abel Takele"
 app_description = "Inventory and POS extensions"
-app_email = "dev@example.com"
+app_email = "abel.takele@example.com"
 app_license = "MIT"
 
 scheduler_events = {
